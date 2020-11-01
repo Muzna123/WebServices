@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "salary": {
+          "type": "integer"
+        },
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "salary",
+        "id",
+        "name"
+      ]
+    },
+    {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "salary": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "name",
+            "id",
+            "salary"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "salary": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "name",
+            "id",
+            "salary"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "author": {
+          "type": "string"
+        },
+        "id": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "author",
+        "id",
+        "title"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Student": {
+          "type": "object",
+          "properties": {
+            "RollNum": {
+              "type": "integer"
+            },
+            "Marks": {
+              "type": "object",
+              "properties": {
+                "Java": {
+                  "type": "integer"
+                },
+                "API": {
+                  "type": "integer"
+                },
+                "Selenium": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "Java",
+                "API",
+                "Selenium"
+              ]
+            },
+            "Name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "RollNum",
+            "Marks",
+            "Name"
+          ]
+        },
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "Student",
+        "id"
+      ]
+    }
+  ]
+}
